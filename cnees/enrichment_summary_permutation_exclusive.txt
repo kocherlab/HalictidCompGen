@@ -1,0 +1,41 @@
+
+social exclusive
+GO:0006139	0.002	nucleobase-containing compound metabolic process
+GO:0006364	0.0	rRNA processing
+GO:0006396	0.0	RNA processing
+GO:0006725	0.002	cellular aromatic compound metabolic process
+GO:0006732	0.007	coenzyme metabolic process
+GO:0006807	0.0	nitrogen compound metabolic process
+GO:0006959	0.011	humoral immune response
+GO:0007526	0.001	larval somatic muscle development
+GO:0008152	0.0	metabolic process
+GO:0009056	0.003	catabolic process
+GO:0010623	0.002	programmed cell death involved in cell development
+GO:0016072	0.0	rRNA metabolic process
+GO:0019730	0.048	antimicrobial humoral response
+GO:0030097	0.0	hemopoiesis
+GO:0033365	0.0	protein localization to organelle
+GO:0034470	0.0	ncRNA processing
+GO:0034641	0.001	cellular nitrogen compound metabolic process
+GO:0034660	0.0	ncRNA metabolic process
+GO:0035166	0.018	post-embryonic hemopoiesis
+GO:0035167	0.018	larval lymph gland hemopoiesis
+GO:0044237	0.0	cellular metabolic process
+GO:0044238	0.0	primary metabolic process
+GO:0044248	0.002	cellular catabolic process
+GO:0045476	0.045	nurse cell apoptotic process
+GO:0046483	0.002	heterocycle metabolic process
+GO:0046488	0.001	phosphatidylinositol metabolic process
+GO:0046686	0.003	response to cadmium ion
+GO:0048534	0.0	hematopoietic or lymphoid organ development
+GO:0071704	0.0	organic substance metabolic process
+GO:0072594	0.0	establishment of protein localization to organelle
+GO:1900117	0.0	regulation of execution phase of apoptosis
+GO:1901360	0.0	organic cyclic compound metabolic process
+GO:1901566	0.0	organonitrogen compound biosynthetic process
+GO:1901575	0.003	organic substance catabolic process
+GO:1902742	0.032	apoptotic process involved in development
+
+solitary exclusive
+GO:0030041	0.003	actin filament polymerization
+GO:0048140	0.0	male germ-line cyst encapsulation

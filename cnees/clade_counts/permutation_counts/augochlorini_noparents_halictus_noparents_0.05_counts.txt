@@ -1,0 +1,31 @@
+GO:0006873	0.0906	12	9	cellular ion homeostasis
+GO:0006875	0.0906	19	16	cellular metal ion homeostasis
+GO:0007204	0.0906	21	16	positive regulation of cytosolic calcium ion concentration
+GO:0007268	0.0906	418	384	chemical synaptic transmission
+GO:0008150	0.0906	137	123	biological_process
+GO:0008593	0.0906	21	18	regulation of Notch signaling pathway
+GO:0009790	0.0906	19	14	embryo development
+GO:0009792	0.0906	19	14	embryo development ending in birth or egg hatching
+GO:0009987	0.0906	114	103	cellular process
+GO:0030003	0.0906	13	12	cellular cation homeostasis
+GO:0030198	0.0906	185	159	extracellular matrix organization
+GO:0032501	0.0906	673	644	multicellular organismal process
+GO:0044058	0.0906	14	10	regulation of digestive system process
+GO:0044275	0.0906	16	14	cellular carbohydrate catabolic process
+GO:0045860	0.0906	69	61	positive regulation of protein kinase activity
+GO:0048856	0.0906	284	259	anatomical structure development
+GO:0048869	0.0906	440	416	cellular developmental process
+GO:0050789	0.0906	578	547	regulation of biological process
+GO:0050793	0.0906	493	469	regulation of developmental process
+GO:0050801	0.0906	7	5	ion homeostasis
+GO:0051049	0.0906	194	176	regulation of transport
+GO:0051239	0.0906	524	499	regulation of multicellular organismal process
+GO:0055065	0.0906	14	12	metal ion homeostasis
+GO:0055080	0.0906	9	8	cation homeostasis
+GO:0055082	0.0906	13	10	cellular chemical homeostasis
+GO:0060078	0.0906	240	221	regulation of postsynaptic membrane potential
+GO:0060079	0.0906	278	244	excitatory postsynaptic potential
+GO:0065007	0.0906	555	531	biological regulation
+GO:0098771	0.0906	9	5	inorganic ion homeostasis
+GO:0098916	0.0906	418	384	anterograde trans-synaptic signaling
+GO:0099537	0.0906	446	420	trans-synaptic signaling

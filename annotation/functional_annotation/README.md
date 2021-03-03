@@ -1,0 +1,14 @@
+# Functional Annotation
+
+We took several approaches to the functional annotation of the official gene sets from each species sequenced here. First, using the "own data" functionality at the web interface at orthodb.org, we mapped all genes from all genomes to OrthoDB v10 orthologous groups at the level of Apoidea. The Gene Ontology terms assigned to these OrthoDB groups were used to annotated each gene. Gene sets were also mapped to orthologous groups with *Drosophila melanogaster* representatives and the Gene Ontology terms from those groups were also included. Finally, we ran the Trinotate on each gene set (see `run_trinotate.sbatch` for commands used). The GO terms from these three sources were combined into a single set of GO terms for each gene. `[species]_trinotate_odb10.txt.gz` contains all of this data for each species. Columns 7 onwards are the output from Trinotate. The first 6 columns are:
+
+`#OG`: OrthoFinder OG number. 10,000 is added to the standard OrthoFinder orthologous group number assignments so as to ease indexing in all parts of the study.
+`ODB`: The OrthoDB v10 orthogroup to which this gene has been assigned, at the level of Apoidea.
+`DMELID`: The name of the *D. melanogaster* gene to which this gene maps in OrthoDB v10
+`AMELID`: The name of the *A. mellifera* gene to which this gene maps in OrthoDB v10
+`DMELGO`: The GO terms assigned to the *D. melanogaster* gene to which this gene maps.
+`AMELGO`: The GO terms assigned to the *A. mellifera* gene to which this gene maps.
+
+These annotations were done at the level of individual genes in individual species. In order to create GO term annotations for orthologous groups, we examined all genes present in a given orthologous group. If a particular GO term was assigned to more than 30% of the species in a particular orthologous group, that orthologous group was assigned that GO term and all of its parent terms. When multiple sequences from a single species were present in an orthogroup, the GO terms for all sequences were used, but only unique GO terms from a single species were used to quantify the evidence that that GO term represents the orthogroup. So if two sequences from a single species have the same GO term, that GO term is only counted once when determining whether to include that GO term in orthogroup annotation.
+
+Gene names were assigned in a similar way. If more than 50% of the genes in a particular orthologous group were mapped to the same OrthoDB group, that orthologous group was assigned the OrthoDB ID, *D. melanogaster* gene name, or *Apis mellifera* locus name. `map_gos_to_orthogroups.py` makes these assignments and creates the files `og_gene_names_fbs.txt` with gene name assignments for each orthologous group from Halictids and `og_go_assignments.txt` with GO term annotations.

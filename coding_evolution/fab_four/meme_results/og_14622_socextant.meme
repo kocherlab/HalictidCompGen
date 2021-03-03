@@ -1,0 +1,67 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>Loaded a multiple sequence alignment with **19** sequences, **1015** codons, and **1** partitions from `/Genomics/kocherlab/berubin/comparative/halictids/halictid_selection/hyphy_meme_tests/og_cds_14622.afa`
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 0.05
+
+
+### Branches to include in the MEME analysis
+Selected 6 branches to include in the MEME analysis: `AAUR, LMAL, LPAU, LZEP, LMAR, HLIG`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -18944.51, AIC-c = 37975.08 (43 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -17994.87, AIC-c = 36092.02 (51 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.2701
+* non-synonymous/synonymous rate ratio for *test* =   0.2767
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -17970.61
+* non-synonymous/synonymous rate ratio for *background* =   0.2477
+* non-synonymous/synonymous rate ratio for *test* =   0.2763
+
+### For partition 1 these sites are significant at p <=0.05
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|
+|     61     |     1      |    0.000   |    5.168   |    1.000   |    6.047   |      Yes, p =  0.0220      |     2      |
+|    305     |     1      |    0.000   |   13.998   |    0.264   |    5.537   |      Yes, p =  0.0286      |     1      |
+|    317     |     1      |    0.000   |    2.599   |    1.000   |    6.591   |      Yes, p =  0.0167      |     2      |
+|    604     |     1      |    0.000   |    4.624   |    0.741   |    4.998   |      Yes, p =  0.0377      |     2      |
+|    642     |     1      |    0.000   |   21.839   |    0.221   |    6.757   |      Yes, p =  0.0153      |     1      |
+|    756     |     1      |    0.617   |   59.943   |    0.215   |    5.376   |      Yes, p =  0.0311      |     1      |
+|    822     |     1      |    1.710   |  1999.200  |    0.524   |    5.149   |      Yes, p =  0.0349      |     1      |
+|    847     |     1      |    2.493   |  570.131   |    0.176   |    6.418   |      Yes, p =  0.0182      |     1      |
+|    862     |     1      |    1.317   |  167.150   |    0.210   |    5.139   |      Yes, p =  0.0351      |     1      |
+|    898     |     1      |    0.995   |   76.815   |    0.217   |    8.101   |      Yes, p =  0.0077      |     1      |
+|    910     |     1      |    0.000   |    3.436   |    1.000   |    4.826   |      Yes, p =  0.0412      |     2      |
+
+### ** Found _11_ sites under episodic diversifying positive selection at p <= 0.05**

@@ -1,0 +1,87 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>Loaded a multiple sequence alignment with **19** sequences, **3392** codons, and **1** partitions from `/Genomics/kocherlab/berubin/comparative/halictids/halictid_selection/hyphy_meme_tests/og_cds_13369.afa`
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 0.05
+
+
+### Branches to include in the MEME analysis
+Selected 6 branches to include in the MEME analysis: `AAUR, LMAL, LPAU, LZEP, LMAR, HLIG`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -73273.35, AIC-c = 146632.72 (43 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -69957.32, AIC-c = 140016.73 (51 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.2793
+* non-synonymous/synonymous rate ratio for *test* =   0.2845
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -69781.59
+* non-synonymous/synonymous rate ratio for *background* =   0.2496
+* non-synonymous/synonymous rate ratio for *test* =   0.2979
+
+### For partition 1 these sites are significant at p <=0.05
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|
+|     22     |     1      |    0.000   |  3316.352  |    0.210   |   19.039   |      Yes, p =  0.0000      |     1      |
+|     24     |     1      |    0.000   |  5331.779  |    0.343   |   16.377   |      Yes, p =  0.0001      |     2      |
+|    264     |     1      |    0.369   |  230.929   |    0.176   |    8.186   |      Yes, p =  0.0074      |     1      |
+|    680     |     1      |    1.839   |   51.547   |    0.193   |    4.647   |      Yes, p =  0.0452      |     1      |
+|    844     |     1      |    0.601   |   15.503   |    1.000   |    9.875   |      Yes, p =  0.0031      |     1      |
+|    911     |     1      |    0.000   |   42.372   |    0.188   |    8.605   |      Yes, p =  0.0060      |     1      |
+|    1015    |     1      |    0.313   |    6.029   |    1.000   |    5.282   |      Yes, p =  0.0326      |     0      |
+|    1067    |     1      |    0.546   |  3286.021  |    0.172   |    7.455   |      Yes, p =  0.0107      |     1      |
+|    1178    |     1      |    0.754   |  284.743   |    0.349   |    4.573   |      Yes, p =  0.0470      |     2      |
+|    1236    |     1      |    0.000   |   76.109   |    0.363   |   15.715   |      Yes, p =  0.0002      |     2      |
+|    1252    |     1      |    1.767   |  439.075   |    0.204   |    7.921   |      Yes, p =  0.0085      |     1      |
+|    1305    |     1      |    0.782   |   39.623   |    0.206   |    5.542   |      Yes, p =  0.0285      |     1      |
+|    1577    |     1      |    0.000   |  521.934   |    0.192   |    7.386   |      Yes, p =  0.0111      |     1      |
+|    1854    |     1      |    0.000   |   22.043   |    0.420   |   10.677   |      Yes, p =  0.0021      |     2      |
+|    1868    |     1      |    0.507   |   53.588   |    0.187   |    8.295   |      Yes, p =  0.0070      |     1      |
+|    1889    |     1      |    0.000   |   11.339   |    0.295   |    5.930   |      Yes, p =  0.0234      |     1      |
+|    1909    |     1      |    0.000   |    3.537   |    1.000   |    6.299   |      Yes, p =  0.0193      |     2      |
+|    2199    |     1      |    0.000   |    3.111   |    1.000   |    5.155   |      Yes, p =  0.0348      |     2      |
+|    2301    |     1      |    0.000   |    9.292   |    0.572   |    4.537   |      Yes, p =  0.0479      |     2      |
+|    2555    |     1      |    0.000   |   17.912   |    0.207   |    5.561   |      Yes, p =  0.0282      |     1      |
+|    2590    |     1      |    0.461   |  199.389   |    0.174   |    5.416   |      Yes, p =  0.0304      |     1      |
+|    2723    |     1      |    0.000   |  3286.021  |    0.205   |   11.394   |      Yes, p =  0.0015      |     1      |
+|    2726    |     1      |    0.974   |  174.061   |    0.207   |    4.783   |      Yes, p =  0.0422      |     1      |
+|    2906    |     1      |    0.000   |    3.317   |    1.000   |    7.064   |      Yes, p =  0.0131      |     2      |
+|    2926    |     1      |    0.000   |   35.804   |    0.191   |   11.043   |      Yes, p =  0.0017      |     1      |
+|    3058    |     1      |    0.562   |    6.497   |    1.000   |    5.955   |      Yes, p =  0.0231      |     0      |
+|    3059    |     1      |    0.379   |   94.448   |    0.353   |    4.743   |      Yes, p =  0.0431      |     1      |
+|    3164    |     1      |    0.423   |10000.000...|    0.177   |    4.954   |      Yes, p =  0.0386      |     1      |
+|    3170    |     1      |    0.000   |    6.406   |    1.000   |    4.665   |      Yes, p =  0.0448      |     0      |
+|    3173    |     1      |    0.000   |  1370.208  |    0.173   |    6.964   |      Yes, p =  0.0138      |     1      |
+|    3385    |     1      |    0.000   |   50.601   |    0.231   |    8.022   |      Yes, p =  0.0080      |     1      |
+
+### ** Found _31_ sites under episodic diversifying positive selection at p <= 0.05**

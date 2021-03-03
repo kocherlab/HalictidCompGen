@@ -1,0 +1,135 @@
+GO:0000212	0.0787	0	0	meiotic spindle organization
+GO:0000226	0.0703	7	4	microtubule cytoskeleton organization
+GO:0001508	0.0925	33	29	action potential
+GO:0001662	0.0838	17	10	behavioral fear response
+GO:0001738	0.095	32	28	morphogenesis of a polarized epithelium
+GO:0002209	0.095	14	12	behavioral defense response
+GO:0006468	0.0852	17	11	protein phosphorylation
+GO:0006928	0.0698	166	109	movement of cell or subcellular component
+GO:0006952	0.0798	5	3	defense response
+GO:0007010	0.015	68	5	cytoskeleton organization
+GO:0007015	0.0787	24	19	actin filament organization
+GO:0007154	0.0501	219	110	cell communication
+GO:0007165	0.0501	247	110	signal transduction
+GO:0007167	0.0612	7	3	enzyme linked receptor protein signaling pathway
+GO:0007267	0.0787	277	231	cell-cell signaling
+GO:0007399	0.0952	46	43	nervous system development
+GO:0007416	0.0612	124	66	synapse assembly
+GO:0007517	0.0395	23	3	muscle organ development
+GO:0007522	0.095	22	20	visceral muscle development
+GO:0007528	0.0295	165	38	neuromuscular junction development
+GO:0008582	0.0045	37	1	regulation of synaptic growth at neuromuscular junction
+GO:0008584	0.0925	2	1	male gonad development
+GO:0009605	0.0877	2	1	response to external stimulus
+GO:0009887	0.0342	41	7	animal organ morphogenesis
+GO:0009888	0.0703	86	52	tissue development
+GO:0009966	0.0852	137	116	regulation of signal transduction
+GO:0010001	0.0395	65	14	glial cell differentiation
+GO:0010455	0.0342	4	1	positive regulation of cell fate commitment
+GO:0010646	0.0244	271	79	regulation of cell communication
+GO:0010977	0.0952	44	42	negative regulation of neuron projection development
+GO:0016310	0.0539	13	6	phosphorylation
+GO:0018108	0.055	29	14	peptidyl-tyrosine phosphorylation
+GO:0018212	0.0612	29	17	peptidyl-tyrosine modification
+GO:0022602	0.0531	22	5	ovulation cycle process
+GO:0022898	0.0845	45	37	regulation of transmembrane transporter activity
+GO:0023051	0.0248	270	78	regulation of signaling
+GO:0023052	0.0539	289	174	signaling
+GO:0030029	0.0838	82	64	actin filament-based process
+GO:0030036	0.0838	78	66	actin cytoskeleton organization
+GO:0030278	0.0952	2	2	regulation of ossification
+GO:0030500	0.0787	4	0	regulation of bone mineralization
+GO:0030708	0.0838	27	15	germarium-derived female germ-line cyst encapsulation
+GO:0032291	0.0852	1	1	axon ensheathment in central nervous system
+GO:0032409	0.0845	45	37	regulation of transporter activity
+GO:0032412	0.0845	45	37	regulation of ion transmembrane transporter activity
+GO:0032501	0.0887	400	371	multicellular organismal process
+GO:0032502	0.0531	182	98	developmental process
+GO:0032879	0.0654	304	216	regulation of localization
+GO:0034329	0.0787	45	31	cell junction assembly
+GO:0034330	0.0342	78	16	cell junction organization
+GO:0034332	0.0363	34	9	adherens junction organization
+GO:0034333	0.0925	31	27	adherens junction assembly
+GO:0035096	0.0925	0	0	larval midgut cell programmed cell death
+GO:0035249	0.0603	34	12	synaptic transmission, glutamatergic
+GO:0040007	0.055	39	16	growth
+GO:0040008	0.015	63	10	regulation of growth
+GO:0042391	0.0203	245	58	regulation of membrane potential
+GO:0042596	0.095	17	16	fear response
+GO:0043113	0.0327	165	53	receptor clustering
+GO:0043269	0.0852	110	91	regulation of ion transport
+GO:0044087	0.0543	78	34	regulation of cellular component biogenesis
+GO:0045214	0.0965	19	19	sarcomere organization
+GO:0045216	0.0787	76	54	cell-cell junction organization
+GO:0045433	0.0925	6	4	male courtship behavior, veined wing generated song production
+GO:0045501	0.0531	0	0	regulation of sevenless signaling pathway
+GO:0045665	0.0925	65	57	negative regulation of neuron differentiation
+GO:0045667	0.0925	1	1	regulation of osteoblast differentiation
+GO:0045669	0.0787	1	1	positive regulation of osteoblast differentiation
+GO:0045676	0.0925	1	1	regulation of R7 cell differentiation
+GO:0045778	0.0698	3	2	positive regulation of ossification
+GO:0045874	0.0852	3	2	positive regulation of sevenless signaling pathway
+GO:0045887	0.0698	19	12	positive regulation of synaptic growth at neuromuscular junction
+GO:0046847	0.095	64	62	filopodium assembly
+GO:0048066	0.095	3	3	developmental pigmentation
+GO:0048085	0.0845	7	6	adult chitin-containing cuticle pigmentation
+GO:0048139	0.0838	27	15	female germ-line cyst encapsulation
+GO:0048167	0.0531	246	133	regulation of synaptic plasticity
+GO:0048168	0.0952	121	113	regulation of neuronal synaptic plasticity
+GO:0048172	0.0531	176	83	regulation of short-term neuronal synaptic plasticity
+GO:0048513	0.0501	32	14	animal organ development
+GO:0048518	0.0248	111	20	positive regulation of biological process
+GO:0048519	0.0543	149	74	negative regulation of biological process
+GO:0048522	0.0698	119	83	positive regulation of cellular process
+GO:0048523	0.0327	130	32	negative regulation of cellular process
+GO:0048583	0.095	137	133	regulation of response to stimulus
+GO:0048638	0.0045	116	3	regulation of developmental growth
+GO:0048639	0.0952	40	35	positive regulation of developmental growth
+GO:0048640	0.095	7	7	negative regulation of developmental growth
+GO:0048709	0.028	56	8	oligodendrocyte differentiation
+GO:0048856	0.0344	159	50	anatomical structure development
+GO:0048869	0.0501	76	25	cellular developmental process
+GO:0050708	0.0852	17	16	regulation of protein secretion
+GO:0050727	0.0367	14	0	regulation of inflammatory response
+GO:0050789	0.015	348	87	regulation of biological process
+GO:0050793	0.0212	463	203	regulation of developmental process
+GO:0050794	0.015	353	89	regulation of cellular process
+GO:0050803	0.0612	7	0	regulation of synapse structure or activity
+GO:0050804	0.0698	316	222	modulation of chemical synaptic transmission
+GO:0050805	0.0244	125	19	negative regulation of synaptic transmission
+GO:0050807	0.0072	71	3	regulation of synapse organization
+GO:0050808	0.0612	376	253	synapse organization
+GO:0051049	0.0614	132	67	regulation of transport
+GO:0051093	0.055	68	29	negative regulation of developmental process
+GO:0051094	0.0952	201	192	positive regulation of developmental process
+GO:0051124	0.0509	49	10	synaptic growth at neuromuscular junction
+GO:0051129	0.0212	21	3	negative regulation of cellular component organization
+GO:0051239	0.0248	537	252	regulation of multicellular organismal process
+GO:0051240	0.0836	265	218	positive regulation of multicellular organismal process
+GO:0051241	0.0244	171	42	negative regulation of multicellular organismal process
+GO:0051493	0.0977	74	73	regulation of cytoskeleton organization
+GO:0051639	0.0852	2	1	actin filament network formation
+GO:0051650	0.0794	36	27	establishment of vesicle localization
+GO:0051960	0.0787	168	133	regulation of nervous system development
+GO:0051961	0.095	53	50	negative regulation of nervous system development
+GO:0051963	0.0045	96	4	regulation of synapse assembly
+GO:0051965	0.0838	68	55	positive regulation of synapse assembly
+GO:0051966	0.0698	154	102	regulation of synaptic transmission, glutamatergic
+GO:0051967	0.0342	32	1	negative regulation of synaptic transmission, glutamatergic
+GO:0060078	0.0045	137	4	regulation of postsynaptic membrane potential
+GO:0060079	0.0544	138	61	excitatory postsynaptic potential
+GO:0060080	0.0218	150	18	inhibitory postsynaptic potential
+GO:0061061	0.0698	4	0	muscle structure development
+GO:0061326	0.0925	9	7	renal tubule development
+GO:0065007	0.0327	314	125	biological regulation
+GO:0070167	0.0925	7	6	regulation of biomineral tissue development
+GO:0071773	0.0852	6	3	cellular response to BMP stimulus
+GO:0097435	0.0983	36	34	supramolecular fiber organization
+GO:0099177	0.0698	316	222	regulation of trans-synaptic signaling
+GO:0099601	0.0838	91	73	regulation of neurotransmitter receptor activity
+GO:1904396	0.0045	32	1	regulation of neuromuscular junction development
+GO:1904398	0.0698	19	12	positive regulation of neuromuscular junction development
+GO:2000026	0.0248	426	178	regulation of multicellular organismal development
+GO:2000273	0.0852	40	31	positive regulation of signaling receptor activity
+GO:2001257	0.0925	51	42	regulation of cation channel activity
+GO:2001259	0.0852	23	17	positive regulation of cation channel activity

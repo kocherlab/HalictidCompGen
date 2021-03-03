@@ -1,0 +1,63 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>Loaded a multiple sequence alignment with **18** sequences, **456** codons, and **1** partitions from `/Genomics/kocherlab/berubin/comparative/halictids/halictid_selection/hyphy_meme_tests/og_cds_11519.afa`
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 0.05
+
+
+### Branches to include in the MEME analysis
+Selected 6 branches to include in the MEME analysis: `APUR, LOEN, LVIE, LFIG, LLEU, HQUA`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -9545.00, AIC-c = 19172.13 (41 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -9284.33, AIC-c = 18667.27 (49 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.5165
+* non-synonymous/synonymous rate ratio for *test* =   0.4935
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -9279.61
+* non-synonymous/synonymous rate ratio for *background* =   0.5084
+* non-synonymous/synonymous rate ratio for *test* =   0.4674
+
+### For partition 1 these sites are significant at p <=0.05
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|
+|     93     |     1      |    0.000   |    2.089   |    1.000   |    4.498   |      Yes, p =  0.0489      |     1      |
+|    100     |     1      |    0.000   |   16.961   |    0.415   |   10.698   |      Yes, p =  0.0021      |     2      |
+|    109     |     1      |    0.000   |    5.971   |    0.558   |    4.756   |      Yes, p =  0.0428      |     2      |
+|    306     |     1      |    0.000   |    2.116   |    1.000   |    5.200   |      Yes, p =  0.0340      |     2      |
+|    373     |     1      |    0.000   |    2.267   |    1.000   |    4.560   |      Yes, p =  0.0473      |     0      |
+|    396     |     1      |    0.000   |   19.286   |    0.407   |    8.957   |      Yes, p =  0.0050      |     1      |
+|    449     |     1      |    0.000   |  324.330   |    0.168   |    5.595   |      Yes, p =  0.0278      |     1      |
+
+### ** Found _7_ sites under episodic diversifying positive selection at p <= 0.05**

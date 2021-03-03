@@ -1,0 +1,12 @@
+# aBS-REL
+
+Here is the command used to execute aBSREL on all branches of all orthogroups:
+
+`python /Genomics/kocherlab/berubin/local/developing/selection_pipeline/selection_pipeline.py -b /Genomics/kocherlab/berubin/comparative/halictids/halictid_selection -o halictid -r /Genomics/kocherlab/berubin/comparative/halictids/orthology/orthofinder/protein_seqs/OrthoFinder/Results_Jan29_4/Orthogroups/Orthogroups.txt -p 16 -t 12 -a hyphy_absrel -d halictids.params --taxa_inclusion /Genomics/kocherlab/berubin/comparative/halictids/halictid_selection/ancsol.txt -e /Genomics/kocherlab/berubin/comparative/halictids/halictid_selection/RAxML_bestTree.halictid_fourfold.tree`
+
+This takes all loci that fit the requirements and, using the Jarvis-filtered alignments, runs `HYPHYMP CPU=1 /usr/local/hyphy/2.3.11/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf Universal [working_dir]/og_cds_[OG].afa [working_dir]/og_[OG].tree All > [working_dir]/og_[OG]_absrel.txt` and then compiles the results from all loci, performs FDR-correction, and outputs a single file. All files for each locus are also maintained. Note that the tips of the tree and the sequence names have to exactly match, so trees have to be pruned correctly.
+
+HyPhy aBS-REL identifies branches under selection using dN/dS. I ran it in such a way as to test every individual branch for selection across every gene. That's a lot of tests so I did FDR correction across every test. I required a minimum of 12 taxa to be present as well as the ancsol taxonomy requirements and tested at least one branch in 7,770 genes. The "ancsol" taxonomy requirements are at least two *Halictus*, at least two Augochlorines, at least two *Lasioglossum*, and at least two of DNOV, NMEL, and AVIR.
+
+In order to test specific branches for enrichment, all descendent species had to be present at that particular locus as well as at least one species from the sister clade. These are defined in `branch_index.txt`. Note that these also contain the numbers corresponding to each branch. For the exact branches that exist on the full phylogeny with no missing species, I tested the genes with corrected p-values < 0.05 against all genes examined on that particular branch for GO enrichment. All GO enrichments are in Table S4. In these tables, branches are defined by the descendent taxa. So, for example, the branch leading to *Halictus* is represented by "HLIG,HQUA,HRUB".
+

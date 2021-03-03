@@ -1,0 +1,51 @@
+GO:0003008	0.0938	970	966	system process
+GO:0007154	0.036	905	784	cell communication
+GO:0007155	0.0026	995	915	cell adhesion
+GO:0007156	0.0899	937	927	homophilic cell adhesion via plasma membrane adhesion molecules
+GO:0007157	0.0533	394	244	heterophilic cell-cell adhesion via plasma membrane cell adhesion molecules
+GO:0007267	0.0533	877	776	cell-cell signaling
+GO:0009966	0.0899	741	713	regulation of signal transduction
+GO:0009968	0.0959	239	235	negative regulation of signal transduction
+GO:0010646	0.0026	910	460	regulation of cell communication
+GO:0010648	0.0394	354	193	negative regulation of cell communication
+GO:0016079	0.0779	69	64	synaptic vesicle exocytosis
+GO:0017156	0.0899	52	43	calcium ion regulated exocytosis
+GO:0022610	0.0026	995	914	biological adhesion
+GO:0023051	0.0026	928	490	regulation of signaling
+GO:0023052	0.0239	898	691	signaling
+GO:0023057	0.0394	354	193	negative regulation of signaling
+GO:0030029	0.095	378	363	actin filament-based process
+GO:0030036	0.0899	327	310	actin cytoskeleton organization
+GO:0030198	0.036	551	311	extracellular matrix organization
+GO:0032502	0.0653	949	932	developmental process
+GO:0032879	0.0134	890	638	regulation of localization
+GO:0043062	0.0805	498	438	extracellular structure organization
+GO:0043473	0.0899	56	51	pigmentation
+GO:0046928	0.036	273	129	regulation of neurotransmitter secretion
+GO:0048583	0.0093	733	314	regulation of response to stimulus
+GO:0048867	0.0899	48	45	stem cell fate determination
+GO:0048869	0.0653	922	877	cellular developmental process
+GO:0050789	0.0289	969	919	regulation of biological process
+GO:0050794	0.0239	963	868	regulation of cellular process
+GO:0050796	0.0966	39	38	regulation of insulin secretion
+GO:0050804	0.0899	662	636	modulation of chemical synaptic transmission
+GO:0050808	0.0026	959	591	synapse organization
+GO:0051046	0.0239	368	126	regulation of secretion
+GO:0051049	0.0899	682	660	regulation of transport
+GO:0051180	0.0959	31	29	vitamin transport
+GO:0051239	0.0899	966	962	regulation of multicellular organismal process
+GO:0051493	0.0899	335	309	regulation of cytoskeleton organization
+GO:0051588	0.0454	233	124	regulation of neurotransmitter transport
+GO:0060284	0.0899	653	627	regulation of cell development
+GO:0060326	0.0959	6	5	cell chemotaxis
+GO:0065007	0.036	968	927	biological regulation
+GO:0070207	0.0899	19	19	protein homotrimerization
+GO:0071241	0.0238	33	6	cellular response to inorganic substance
+GO:0071248	0.0724	35	24	cellular response to metal ion
+GO:0071277	0.036	30	4	cellular response to calcium ion
+GO:0098609	0.0899	973	969	cell-cell adhesion
+GO:0098742	0.0394	926	834	cell-cell adhesion via plasma-membrane adhesion molecules
+GO:0099177	0.0899	662	636	regulation of trans-synaptic signaling
+GO:0099536	0.0899	821	810	synaptic signaling
+GO:1901623	0.0899	17	17	regulation of lymphocyte chemotaxis
+GO:1903530	0.0403	248	114	regulation of secretion by cell

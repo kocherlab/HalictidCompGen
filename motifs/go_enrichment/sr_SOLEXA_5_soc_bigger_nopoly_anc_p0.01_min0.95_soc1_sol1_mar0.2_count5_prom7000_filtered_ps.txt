@@ -1,0 +1,55 @@
+GOterm	pval	FDR_p	NS	enrichm	name	ratio_in_study	ratio_in_pop	depth	study_count	study_items
+GO:0019219	1.0	1.0	BP	p	regulation of nucleobase-containing compound metabolic process	3/12	266/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:0032774	0.41287352777	1.0	BP	e	RNA biosynthetic process	3/12	159/1022	7	3	OG_14060, OG_14490, OG_16913
+GO:0019222	0.551019777268	1.0	BP	p	regulation of metabolic process	3/12	386/1022	3	3	OG_14060, OG_14490, OG_16913
+GO:0031326	1.0	1.0	BP	p	regulation of cellular biosynthetic process	3/12	268/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:0031323	0.557894293879	1.0	BP	p	regulation of cellular metabolic process	3/12	356/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0090304	0.740092856655	1.0	BP	e	nucleic acid metabolic process	3/12	232/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:0044249	1.0	1.0	BP	e	cellular biosynthetic process	3/12	239/1022	3	3	OG_14060, OG_14490, OG_16913
+GO:0034641	0.328743090477	1.0	BP	e	cellular nitrogen compound metabolic process	5/12	282/1022	3	5	OG_11935, OG_14060, OG_14490, OG_15214, OG_16913
+GO:0006807	0.772485361034	1.0	BP	e	nitrogen compound metabolic process	6/12	447/1022	2	6	OG_11935, OG_14060, OG_14490, OG_15213, OG_15214, OG_16913
+GO:0007165	0.450536161028	1.0	BP	e	signal transduction	3/12	179/1022	4	3	OG_11935, OG_13596, OG_16377
+GO:0034645	0.456981273805	1.0	BP	e	cellular macromolecule biosynthetic process	3/12	182/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:1901362	0.709848241622	1.0	BP	e	organic cyclic compound biosynthetic process	3/12	196/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0050789	1.0	1.0	BP	e	regulation of biological process	7/12	585/1022	2	7	OG_11935, OG_13596, OG_14060, OG_14490, OG_15213, OG_16377, OG_16913
+GO:0097659	0.398387971076	1.0	BP	e	nucleic acid-templated transcription	3/12	149/1022	8	3	OG_14060, OG_14490, OG_16913
+GO:0080090	0.760590597001	1.0	BP	p	regulation of primary metabolic process	3/12	349/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0006139	0.189691176494	1.0	BP	e	nucleobase-containing compound metabolic process	5/12	257/1022	4	5	OG_11935, OG_14060, OG_14490, OG_15214, OG_16913
+GO:0044260	1.0	1.0	BP	e	cellular macromolecule metabolic process	4/12	339/1022	4	4	OG_14060, OG_14490, OG_15213, OG_16913
+GO:0048869	1.0	1.0	BP	e	cellular developmental process	3/12	240/1022	2	3	OG_14490, OG_15213, OG_16913
+GO:2000112	1.0	1.0	BP	p	regulation of cellular macromolecule biosynthetic process	3/12	260/1022	6	3	OG_14060, OG_14490, OG_16913
+GO:0071704	1.0	1.0	BP	e	organic substance metabolic process	6/12	487/1022	2	6	OG_11935, OG_14060, OG_14490, OG_15213, OG_15214, OG_16913
+GO:0065007	1.0	1.0	BP	p	biological regulation	7/12	621/1022	1	7	OG_11935, OG_13596, OG_14060, OG_14490, OG_15213, OG_16377, OG_16913
+GO:1901360	0.327809658434	1.0	BP	e	organic cyclic compound metabolic process	5/12	281/1022	3	5	OG_11935, OG_14060, OG_14490, OG_15214, OG_16913
+GO:0048518	1.0	1.0	BP	p	positive regulation of biological process	3/12	307/1022	3	3	OG_13596, OG_15213, OG_16913
+GO:0048519	1.0	1.0	BP	p	negative regulation of biological process	3/12	290/1022	3	3	OG_15213, OG_16377, OG_16913
+GO:0010468	1.0	1.0	BP	p	regulation of gene expression	3/12	297/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:0018130	0.465835018609	1.0	BP	e	heterocycle biosynthetic process	3/12	186/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0032502	0.388542221237	1.0	BP	p	developmental process	3/12	394/1022	1	3	OG_14490, OG_15213, OG_16913
+GO:0032501	0.524565057909	1.0	BP	e	multicellular organismal process	4/12	268/1022	1	4	OG_11935, OG_15213, OG_16377, OG_16913
+GO:1901576	1.0	1.0	BP	e	organic substance biosynthetic process	3/12	244/1022	3	3	OG_14060, OG_14490, OG_16913
+GO:0060255	0.552645091212	1.0	BP	p	regulation of macromolecule metabolic process	3/12	369/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0009889	1.0	1.0	BP	p	regulation of biosynthetic process	3/12	268/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0009987	0.744341951599	1.0	BP	p	cellular process	8/12	744/1022	1	8	OG_11935, OG_13596, OG_14060, OG_14490, OG_15213, OG_15214, OG_16377, OG_16913
+GO:0006725	0.318656470014	1.0	BP	e	cellular aromatic compound metabolic process	5/12	269/1022	3	5	OG_11935, OG_14060, OG_14490, OG_15214, OG_16913
+GO:1903506	1.0	1.0	BP	e	regulation of nucleic acid-templated transcription	3/12	240/1022	8	3	OG_14060, OG_14490, OG_16913
+GO:0050794	0.779818020992	1.0	BP	e	regulation of cellular process	7/12	547/1022	3	7	OG_11935, OG_13596, OG_14060, OG_14490, OG_15213, OG_16377, OG_16913
+GO:0009058	1.0	1.0	BP	e	biosynthetic process	3/12	250/1022	2	3	OG_14060, OG_14490, OG_16913
+GO:0009059	0.708241057125	1.0	BP	e	macromolecule biosynthetic process	3/12	193/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0008150	0.109119184853	1.0	BP	p	biological_process	8/12	859/1022	0	8	OG_11935, OG_13596, OG_14060, OG_14490, OG_15213, OG_15214, OG_16377, OG_16913
+GO:0051171	0.760491716018	1.0	BP	p	regulation of nitrogen compound metabolic process	3/12	348/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0008152	1.0	1.0	BP	p	metabolic process	6/12	525/1022	1	6	OG_11935, OG_14060, OG_14490, OG_15213, OG_15214, OG_16913
+GO:2001141	1.0	1.0	BP	e	regulation of RNA biosynthetic process	3/12	240/1022	7	3	OG_14060, OG_14490, OG_16913
+GO:0034654	0.452664993215	1.0	BP	e	nucleobase-containing compound biosynthetic process	3/12	180/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:1901564	1.0	1.0	BP	e	organonitrogen compound metabolic process	3/12	246/1022	3	3	OG_11935, OG_15213, OG_15214
+GO:0046483	0.199437142091	1.0	BP	e	heterocycle metabolic process	5/12	263/1022	3	5	OG_11935, OG_14060, OG_14490, OG_15214, OG_16913
+GO:0016070	0.723585883634	1.0	BP	e	RNA metabolic process	3/12	215/1022	6	3	OG_14060, OG_14490, OG_16913
+GO:0044238	0.779490458021	1.0	BP	e	primary metabolic process	6/12	468/1022	2	6	OG_11935, OG_14060, OG_14490, OG_15213, OG_15214, OG_16913
+GO:0044271	0.714229968988	1.0	BP	e	cellular nitrogen compound biosynthetic process	3/12	203/1022	4	3	OG_14060, OG_14490, OG_16913
+GO:0051252	1.0	1.0	BP	p	regulation of RNA metabolic process	3/12	256/1022	6	3	OG_14060, OG_14490, OG_16913
+GO:0044237	1.0	1.0	BP	e	cellular metabolic process	6/12	475/1022	2	6	OG_11935, OG_14060, OG_14490, OG_15213, OG_15214, OG_16913
+GO:0043170	0.770677815759	1.0	BP	p	macromolecule metabolic process	4/12	415/1022	3	4	OG_14060, OG_14490, OG_15213, OG_16913
+GO:0006355	1.0	1.0	BP	e	regulation of transcription, DNA-templated	3/12	240/1022	9	3	OG_14060, OG_14490, OG_16913
+GO:0010556	1.0	1.0	BP	p	regulation of macromolecule biosynthetic process	3/12	260/1022	5	3	OG_14060, OG_14490, OG_16913
+GO:0006351	0.398387971076	1.0	BP	e	transcription, DNA-templated	3/12	149/1022	9	3	OG_14060, OG_14490, OG_16913
+GO:0019438	0.468091818508	1.0	BP	e	aromatic compound biosynthetic process	3/12	187/1022	4	3	OG_14060, OG_14490, OG_16913

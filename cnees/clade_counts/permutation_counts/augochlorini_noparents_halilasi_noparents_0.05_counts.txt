@@ -1,0 +1,55 @@
+GO:0002009	0.0624	59	35	morphogenesis of an epithelium
+GO:0003008	0.0104	778	407	system process
+GO:0006928	0.0125	742	369	movement of cell or subcellular component
+GO:0007154	0.06	672	556	cell communication
+GO:0007155	0.0	946	79	cell adhesion
+GO:0007156	0.0001	609	19	homophilic cell adhesion via plasma membrane adhesion molecules
+GO:0007165	0.0101	683	277	signal transduction
+GO:0007267	0.0617	617	506	cell-cell signaling
+GO:0007280	0.0742	17	14	pole cell migration
+GO:0007391	0.0939	7	6	dorsal closure
+GO:0007399	0.0101	461	99	nervous system development
+GO:0007411	0.0955	519	512	axon guidance
+GO:0007424	0.085	123	106	open tracheal system development
+GO:0007450	0.0777	48	33	dorsal/ventral pattern formation, imaginal disc
+GO:0008037	0.0076	420	69	cell recognition
+GO:0008038	0.0299	358	139	neuron recognition
+GO:0009653	0.0073	736	306	anatomical structure morphogenesis
+GO:0009887	0.0774	184	148	animal organ morphogenesis
+GO:0009888	0.0106	152	17	tissue development
+GO:0016318	0.0797	23	20	ommatidial rotation
+GO:0016319	0.06	32	16	mushroom body development
+GO:0016331	0.0624	13	5	morphogenesis of embryonic epithelium
+GO:0022610	0.0	939	80	biological adhesion
+GO:0023052	0.0529	595	469	signaling
+GO:0030534	0.0441	348	195	adult behavior
+GO:0032501	0.026	863	640	multicellular organismal process
+GO:0032502	0.0061	600	159	developmental process
+GO:0035050	0.0617	20	11	embryonic heart tube development
+GO:0035107	0.0911	305	288	appendage morphogenesis
+GO:0035114	0.0911	278	261	imaginal disc-derived appendage morphogenesis
+GO:0035725	0.0853	21	17	sodium ion transmembrane transport
+GO:0040011	0.0468	464	307	locomotion
+GO:0043954	0.0299	2	1	cellular component maintenance
+GO:0045669	0.06	13	10	positive regulation of osteoblast differentiation
+GO:0045778	0.0234	30	4	positive regulation of ossification
+GO:0048190	0.0939	50	49	wing disc dorsal/ventral pattern formation
+GO:0048513	0.0911	173	161	animal organ development
+GO:0048675	0.0101	95	7	axon extension
+GO:0048729	0.0797	64	52	tissue morphogenesis
+GO:0048731	0.0008	664	55	system development
+GO:0048856	0.014	404	120	anatomical structure development
+GO:0048869	0.0624	573	489	cellular developmental process
+GO:0050789	0.0555	727	636	regulation of biological process
+GO:0050793	0.0774	706	666	regulation of developmental process
+GO:0050794	0.0955	692	686	regulation of cellular process
+GO:0050808	0.0073	831	407	synapse organization
+GO:0051239	0.0703	782	720	regulation of multicellular organismal process
+GO:0060429	0.0388	47	16	epithelium development
+GO:0060541	0.0911	111	105	respiratory system development
+GO:0065007	0.0833	736	712	biological regulation
+GO:0070593	0.0106	59	4	dendrite self-avoidance
+GO:0097485	0.0831	477	439	neuron projection guidance
+GO:0098609	0.0043	759	232	cell-cell adhesion
+GO:0098742	0.001	608	56	cell-cell adhesion via plasma-membrane adhesion molecules
+GO:1990138	0.0624	51	30	neuron projection extension

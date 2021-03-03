@@ -1,0 +1,16 @@
+species	behavior
+AAUR	soc
+APUR	sol
+HLIG	soc
+HQUA	sol
+LFIG	sol
+LLEU	sol
+LMAL	soc
+LMAR	soc
+LOEN	sol
+LPAU	soc
+LVIE	sol
+LZEP	soc
+AVIR	sol
+NMEL	sol
+DNOV	sol

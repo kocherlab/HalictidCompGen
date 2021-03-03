@@ -1,0 +1,6 @@
+Exacts between mcl and oma: 4628
+Exacts between mcl and orthofinder: 6248
+Exacts between oma and orthofinder: 5032
+Exacts between mcl and odb: 5090
+Exacts between oma and odb: 5242
+Exacts between orthofinder and odb: 5641

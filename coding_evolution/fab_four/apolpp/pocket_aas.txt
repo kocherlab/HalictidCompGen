@@ -1,0 +1,257 @@
+
+Site 4
+derivedhalictid
+	N	15
+halictid
+	N	18
+otherbees
+	N	10
+ant
+	S	11
+	N	4
+	H	2
+	T	1
+otherhymen
+	N	5
+	H	2
+	S	1
+other
+	Q	13
+	N	7
+	H	6
+	S	6
+	I	3
+	T	3
+	D	2
+	E	1
+	F	1
+
+Site 7
+derivedhalictid
+	Q	15
+halictid
+	Q	18
+otherbees
+	Q	9
+	L	1
+ant
+	E	6
+	N	4
+	I	3
+	H	2
+	Y	2
+	Q	1
+otherhymen
+	Q	5
+	H	3
+other
+	N	15
+	Q	12
+	S	9
+	F	2
+	L	2
+	H	1
+	V	1
+
+Site 16
+derivedhalictid
+	D	15
+halictid
+	D	16
+	A	2
+otherbees
+	A	9
+	D	1
+ant
+	S	10
+	A	3
+	N	2
+	D	1
+	R	1
+	V	1
+otherhymen
+	A	8
+other
+	A	14
+	S	9
+	T	9
+	N	4
+	V	3
+	E	1
+	D	1
+	Q	1
+
+Site 22
+derivedhalictid
+	K	15
+halictid
+	K	18
+otherbees
+	K	10
+ant
+	K	10
+	R	7
+	S	1
+otherhymen
+	K	5
+	R	3
+other
+	R	22
+	K	11
+	E	2
+	H	2
+	Q	2
+	N	1
+	S	1
+	T	1
+
+Site 33
+derivedhalictid
+	E	16
+halictid
+	E	19
+otherbees
+	D	9
+	E	1
+ant
+	D	17
+	E	1
+otherhymen
+	D	6
+	Q	1
+	E	1
+other
+	D	41
+	N	1
+
+Site 41
+derivedhalictid
+	S	16
+halictid
+	S	17
+	A	2
+otherbees
+	A	8
+	P	1
+	S	1
+ant
+	A	12
+	P	2
+	E	1
+	G	1
+	S	1
+	T	1
+otherhymen
+	P	5
+	A	2
+	S	1
+other
+	P	40
+	A	1
+	T	1
+
+Site 43
+derivedhalictid
+	S	16
+halictid
+	S	18
+	T	1
+otherbees
+	S	5
+	N	4
+	T	1
+ant
+	S	14
+	T	2
+	A	1
+	M	1
+otherhymen
+	S	3
+	N	3
+	V	1
+	T	1
+other
+	K	19
+	R	13
+	E	8
+	H	1
+	T	1
+
+Site 52
+derivedhalictid
+	L	16
+halictid
+	L	19
+otherbees
+	P	7
+	L	3
+ant
+	F	18
+otherhymen
+	F	6
+	Y	1
+	L	1
+other
+	Y	12
+	D	7
+	L	7
+	F	5
+	Q	5
+	A	2
+	G	1
+	I	1
+	N	1
+	S	1
+
+Site 53
+derivedhalictid
+	G	16
+halictid
+	G	19
+otherbees
+	G	9
+	D	1
+ant
+	D	17
+	N	1
+otherhymen
+	G	6
+	D	2
+other
+	V	21
+	A	13
+	S	2
+	T	2
+	C	1
+	E	1
+	I	1
+	N	1
+
+Site 60
+derivedhalictid
+	S	16
+halictid
+	S	17
+	G	2
+otherbees
+	S	9
+	T	1
+ant
+	S	18
+otherhymen
+	S	5
+	I	1
+	T	1
+	V	1
+other
+	V	10
+	F	8
+	Y	8
+	T	5
+	H	3
+	I	2
+	N	2
+	A	1
+	E	1
+	K	1
+	S	1
