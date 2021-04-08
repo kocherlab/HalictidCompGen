@@ -55,7 +55,7 @@ Among the 51 sites within the binding pocket of apolpp (as determined by Phyre2)
 
 ## RELAX
 
-Interestingly, HyPhy RELAX finds significant evidence of relaxed selection in both the Hymenoptera and the Ants/bees, though not halictids or bees as a whole. There is also significant evidence for Intensification of selection in Lepidoptera. I also tested Coleoptera but there was no significant signal. Not sure what, if anything, to make of this.
+Interestingly, HyPhy RELAX finds significant evidence of relaxed selection in both the Hymenoptera and the Ants/bees, though not halictids or bees as a whole. There is also significant evidence for Intensification of selection in Lepidoptera. I also tested Coleoptera but there was no significant signal.
 
 ## Branch-site
 
@@ -102,25 +102,3 @@ Root of Holometabola: 0.00103
 Protein sequences were aligned with MUSCLE. The alignments were backtranslated using trimAl and filtered using the `automated1` method. A phylogeny was constructed from the aligned protein sequences using RAxML v7.3.0 with a PROTGAMMAWAG model of evolution. *Blatella germanica*, *Zootermopsis nevadensis* and *Locusta migratoria* were designated as the outgroup. The filtered aligned protein sequences were used for the analyses of rate shifts. The backtranslated aligned coding sequences were used for all tests for selection.
 
 The way that I got sequences was that I BLASTed the HLIG version of the sequence. From the resulting hits, I downloaded the "hit table". I then went to the Entrez batch site (https://www.ncbi.nlm.nih.gov/sites/batchentrez) and uploaded the hit IDs (column 2 in the "hit table" file). From the result, you can "Send to:" "FASTA CDS". Also download the "summary" to get the taxonomy of each sequence.
-
-## Pat1
-
-I did some quick analyses of Pat1 as well. Interestingly, the results weren't very interesting. Here are the counts of branches identified as experiencing positive selection in a variety of clades:
-
-Clade|#Sig|#tested|Prop.
------|----|-------|-----
-hemiptera|1.0|9|0.1111
-halictid|3.0|37|0.0811
-hymenoptera|4.0|123|0.0325
-otherbee|1.0|21|0.0476
-coleoptera|0.0|21|0.0
-bee|4.0|59|0.0678
-ant|0.0|37|0.0
-lepidoptera|9.0|27|0.3333
-diptera|0.0|15|0.0
-
-This is very different than what I found for apolpp below. So Pat1 doesn't have the same kind of widespread rapid change that apolpp does.
-
-## Hex110
-
-I also began trying to explore Hex110 but quickly realized that it would be much more complicated. Since there are multiple types of similar hexamerin genes, it would be difficult to separate paralogs and homologs. This sort of analysis likely is not possible or would require substantial additional effort.
