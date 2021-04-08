@@ -183,7 +183,7 @@ Below is just comparing the five social/solitary pairs. So "higher rates of evol
 
 ### Apolpp
 
-Regions 1100-1200, 1150-1250, 1700-1800, 1750-1850, and 2950-3050 all have higher rates of evolution in solitary species. None of these regions appear to be particularly important structurally as far as I recall. But they do exist. I think that what we would "want" to see is that the same regions that evolve faster in social species relative to AVIR and NMEL would also evolve slower relative to secondarily solitary species. We don't see that pattern anywhere.
+Regions 1100-1200, 1150-1250, 1700-1800, 1750-1850, and 2950-3050 all have higher rates of evolution in solitary species.
 
 No regions show the opposite pattern (i.e., lower rates in solitary species).
 
