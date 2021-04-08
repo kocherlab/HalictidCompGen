@@ -5,7 +5,7 @@ Blue branches are those detected with significant signatures of selection with H
 
 I compiled apolpp from a bunch of taxa including Isoptera, Orthoptera, Hemiptera, Diptera, Lepidoptera, Coleoptera, and Hymenoptera. Combined with the halictid sequences, I used a total of 97 sequences in analyses.
 
-Most basically, I looked for significant rate shifts in amino acid evolution using likelihood ratio tests with PAML. Basically, I said that either two sister clades could have different molecular clock rates or restricted them to having the same rates. The basic premise for this is discussed here: https://www.robertlanfear.com/publications/assets/Lanfear_Evolution_2010.pdf. (That paper actually claims that standard LRTs are overly sensitive and presents a permutation test that is better that we can apply if we want to further build confidence in these results.)
+Most basically, I looked for significant rate shifts in amino acid evolution using likelihood ratio tests with PAML. Basically, I said that either two sister clades could have different molecular clock rates or restricted them to having the same rates. The basic premise for this is discussed here: https://www.robertlanfear.com/publications/assets/Lanfear_Evolution_2010.pdf.
 
 I performed a series of tests: 
  
