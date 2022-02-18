@@ -291,7 +291,7 @@ table(duplicated(intersect(sc_ogs, intersect(lzep_WvQ_ogs$OG, aaur_WvQ_ogs$OG)))
 # 6668
 # So, 6668 is our universe size, shared between the three lists, after NAs are removed.
 
-# We should *not* remove NAs for this next step.
+# We should *not* remove NAs for this next step, except for the queen/worker OG overlap (so that you do not inflate the intersection with an "NA").
 
 # OGs that define each of the 11 sc clusters
 cluster_markers_hal_integrated_Dims10_res0.6_FDR0.05 <- read.csv("../../out/cluster_markers_hal_integrated_Dims10_res0.6_FDR0.05.csv")
@@ -309,8 +309,8 @@ aaur_WvQ_ogs_FDR05 <- subset(aaur_WvQ_ogs, padj < 0.05)
 aaur_deg_list <- list(subset(aaur_WvQ_ogs_FDR05, log2FoldChange > 0)$OG, subset(aaur_WvQ_ogs_FDR05, log2FoldChange < 0)$OG)
 names(aaur_deg_list) <- c("worker", "queen")  
 
-worker_degs <- intersect(lzep_deg_list$worker, aaur_deg_list$worker)
-queen_degs <- intersect(lzep_deg_list$queen, aaur_deg_list$queen)
+worker_degs <- na.omit(intersect(lzep_deg_list$worker, aaur_deg_list$worker))
+queen_degs <- na.omit(intersect(lzep_deg_list$queen, aaur_deg_list$queen))
 
 deg_intersect <- list(worker_degs, queen_degs)
 names(deg_intersect) <- c("worker", "queen")
